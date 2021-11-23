@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Workout Scheduler</title>
+      <meta charset="utf-8">
+      <link href="css/scheduler.css" rel="stylesheet" type="text/css"/>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script type="text/javascript" src="js/scheduler.js"></script>
+      <script src="https://kit.fontawesome.com/34356d4265.js" crossorigin="anonymous"></script>
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Barlow+Condensed:wght@100&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Kreon:wght@300&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <header >
+         <div class="logo"> Dyno Fitness 
+            <i class="fas fa-dumbbell"></i>
+         </div>
+         <nav>
+            <ul>
+               <li><a href="Scheduler.html">Home</a></li>
+            </ul>
+         </nav>
+      </header>
+      <main>
+         <h5>Pick a date</h5>
+         <input type="date" id="dateSchedule">
+         <div id="contentArea">
+            <h2 id="msgBox" style="display: none"></h2>
+            <div id="divWorkouts">
+               <h3>Cardio</h3>
+               <div id="cardio" class="innerDivs">
+                  <div id="cardio1">
+                     <input type="checkbox">
+                     <h4>Cardio 1</h4>
+                  </div>
+                  <div id="cardio2">
+                     <input type="checkbox">
+                     <h4>Cardio 2</h4>
+                  </div>
+                  <div id="cardio3">
+                     <input type="checkbox">
+                     <h4>Cardio 3</h4>
+                  </div>
+                  <div id="cardio4">
+                     <input type="checkbox">
+                     <h4>Cardio 4</h4>
+                  </div>
+               </div>
+               <h3>Lower Body</h3>
+               <div id="lowerbody" class="innerDivs">
+                  <div id="lowerbody1">
+                     <input type="checkbox">
+                     <h4>Lower body 1</h4>
+                  </div>
+                  <div id="lowerbody2">
+                     <input type="checkbox">
+                     <h4>Lower body 2</h4>
+                  </div>
+                  <div id="lowerbody3">
+                     <input type="checkbox">
+                     <h4>Lower body 3</h4>
+                  </div>
+                  <div id="lowerbody4">
+                     <input type="checkbox"> 
+                     <h4>Lower body 4</h4>
+                  </div>
+               </div>
+               <h3>Upper Body</h3>
+               <div id="upperbody" class="innerDivs">
+                  <div id="upperbody1" >
+                     <input type="checkbox">
+                     <h4>Upper body 1</h4>
+                  </div>
+                  <div id="upperbody2">
+                     <input type="checkbox">
+                     <h4>Upper body 2</h4>
+                  </div>
+                  <div id="upperbody3">
+                     <input type="checkbox">
+                     <h4>Upper body 3</h4>
+                  </div>
+                  <div id="upperbody4">
+                     <input type="checkbox">
+                     <h4>Upper body 4</h4>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <input type="button" id="btnAdd" value="Save Workouts">
+      </main>
+      <footer>
+         <h4> Dyno Fitness <i class="fas fa-dumbbell"></i></h4>
+         <div class="text">"Eat well , Sleep Well , Exercise regularly and most importantly Laugh!!"</div>
+         <div class="footer-content">
+            <ul class="icons">
+               <li><i class="fab fa-facebook"></i></li>
+               <li><i class="fab fa-instagram"></i></li>
+               <li><i class="fab fa-twitter-square"></i></li>
+               <li><i class="fab fa-linkedin"></i></li>
+            </ul>
+         </div>
+         <div class="footer-bottom">
+            Copyright &copy;  Dyno Fitness    
+         </div>
+      </footer>
+   </body>
+</html>
